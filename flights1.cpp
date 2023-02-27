@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<fstream>
+#include "editregistration1.cpp"
 using namespace std;
 void mainMenu();
 void flights();

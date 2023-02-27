@@ -101,7 +101,7 @@ string Password();
 void signin();
 int Registration();
 
-int main()
+int main1()
 {
     int choice ;
     cout<<"Welcome to the *** Airlianes" <<endl;
@@ -146,7 +146,7 @@ int Registration()
     user.outputfromfileusername();
     user.inputtofilepassword();
     user.outputfromthefilepassword();
-    main();
+    main1();
     return 0;
 }
 string Passportnumber()
@@ -267,7 +267,7 @@ void signin()
     }
     else{
         cout<<"Incorrect Login Credentials"<<endl;
-        main();
+        main1();
     }
 
 
