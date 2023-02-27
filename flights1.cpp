@@ -17,7 +17,7 @@ void flights();
 
         do{
                 check1=0;
-            cout<<"Welcome to the Airlines!"<<endl;
+            cout<<"Welcome to the AAAAAB  Airlines!"<<endl;
         cout<<"Enter your Boarding destination"<<endl;
         string flight[] = {"Dubai","Canada","UK","USA","Australia","Europe"};
         for (int i = 0; i < 6; i++)
