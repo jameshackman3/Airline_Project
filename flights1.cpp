@@ -7,11 +7,11 @@ void mainMenu();
 void flights();
     //hello
     
-    int main1()
+    int main()
     {
-        int main();
+        main1();
         flights();
-        
+        return 0;
     }
     void flights(){
     int choiceboard,choicedest,moneyadd=0;
