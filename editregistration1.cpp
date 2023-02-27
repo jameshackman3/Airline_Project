@@ -89,7 +89,7 @@ void outputfromthefilepassword()
     cout<<line<<endl;
     passwordfile.close();
 }
-friend voiddisplayticket();
+friend void displayticket();
 
 };
 string  phonenumber();
