@@ -262,7 +262,7 @@ void signin()
     if((usernamesignin==usernamefile)&&(passwordfile==passwordsignin))
     {
         check=1;
-        cout<<"Welcome to a booking Lobby"<<endl;
+        cout<<"Welcome to a booking Lobby\n"<<endl;
 
     }
     else{
