@@ -89,7 +89,7 @@ void outputfromthefilepassword()
     cout<<line<<endl;
     passwordfile.close();
 }
-friend voiddisplayticket();
+friend void displayticket();
 
 };
 string  phonenumber();
@@ -101,7 +101,7 @@ string Password();
 void signin();
 int Registration();
 
-int main1()
+int main()
 {
     int choice ;
     cout<<"Welcome to the *** Airlianes" <<endl;
@@ -146,7 +146,7 @@ int Registration()
     user.outputfromfileusername();
     user.inputtofilepassword();
     user.outputfromthefilepassword();
-    main1();
+    main();
     return 0;
 }
 string Passportnumber()
@@ -267,7 +267,7 @@ void signin()
     }
     else{
         cout<<"Incorrect Login Credentials"<<endl;
-        main1();
+        main();
     }
 
 

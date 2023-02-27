@@ -418,5 +418,7 @@ void flights();
     
     void mainMenu()
     {
+        cout<<"1.Again Book Tickets"<<endl;
+        cout<<"2.Download Your Ticket"<<endl;
         cout<<"You got successfully exited"<<endl;
     }
