@@ -24,6 +24,7 @@ void flights();
         {
             cout<<(i+1)<<". Flight from "<<flight[i]<<endl;
         }
+        cout<<"Your Choice"<<endl;
         cout<<endl;
         
         cin>>choiceboard;
