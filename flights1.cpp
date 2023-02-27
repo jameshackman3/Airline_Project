@@ -418,7 +418,22 @@ void flights();
     
     void mainMenu()
     {
+        int choicemainmenu;
         cout<<"1.Again Book Tickets"<<endl;
         cout<<"2.Download Your Ticket"<<endl;
+        cout<<"3.Press 0 to exit"<<endl;
+        cin>>choicemainmenu;
+        switch ((choicemainmenu))
+        {
+        case 1:flights();
+                break;
+        case 2:displayticket();
+                break;
+        case 3:main();        
+
+        
+        default:
+            break;
+        }
         cout<<"You got successfully exited"<<endl;
     }
