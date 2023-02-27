@@ -8,6 +8,7 @@ void flights();
     
     int main()
     {
+        int main1();
         flights();
         
     }
